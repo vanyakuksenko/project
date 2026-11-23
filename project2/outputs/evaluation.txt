@@ -1,0 +1,42 @@
+Ground-truth comparison (injected episodes)
+
+injected events            : 26
+injected anomalous days    : 198
+predicted episodes         : 28
+events found (episode overlap): 26 / 26
+episodes matching an event : 28 / 28
+
+day-level precision        : 1.000
+day-level recall           : 0.747
+day-level F1               : 0.855
+event-level precision      : 1.000
+event-level recall         : 1.000
+event-level F1             : 1.000
+
+post_office_id                        cause start_date   end_date  days  excess_pct  detected
+        PO-001               faulty chiller 2024-10-15 2024-10-18     4       0.434      True
+        PO-002  temporary sorting equipment 2024-06-30 2024-07-03     4       0.404      True
+        PO-003        heating element fault 2023-04-02 2023-04-10     9       0.551      True
+        PO-003  temporary sorting equipment 2023-09-15 2023-09-22     8       0.330      True
+        PO-003                HVAC stuck on 2024-07-19 2024-07-25     7       0.450      True
+        PO-004        heating element fault 2023-03-18 2023-03-29    12       0.600      True
+        PO-004                HVAC stuck on 2024-02-04 2024-02-07     4       0.570      True
+        PO-004               faulty chiller 2024-07-30 2024-08-10    12       0.413      True
+        PO-005        heating element fault 2024-03-12 2024-03-19     8       0.582      True
+        PO-005 after-hours lighting left on 2024-05-20 2024-05-22     3       0.332      True
+        PO-006  temporary sorting equipment 2023-02-21 2023-02-27     7       0.333      True
+        PO-006  temporary sorting equipment 2023-07-28 2023-07-30     3       0.387      True
+        PO-007        heating element fault 2023-05-27 2023-05-30     4       0.402      True
+        PO-008        heating element fault 2023-11-21 2023-11-27     7       0.356      True
+        PO-008                HVAC stuck on 2024-10-20 2024-10-26     7       0.521      True
+        PO-009        heating element fault 2023-05-30 2023-06-06     8       0.361      True
+        PO-009 after-hours lighting left on 2024-05-11 2024-05-20    10       0.316      True
+        PO-010  temporary sorting equipment 2024-01-13 2024-01-23    11       0.337      True
+        PO-010 after-hours lighting left on 2024-03-17 2024-03-24     8       0.378      True
+        PO-010 after-hours lighting left on 2024-09-13 2024-09-18     6       0.369      True
+        PO-011        heating element fault 2023-05-17 2023-05-27    11       0.449      True
+        PO-011                HVAC stuck on 2023-10-31 2023-11-09    10       0.594      True
+        PO-011               faulty chiller 2024-09-07 2024-09-09     3       0.382      True
+        PO-012               faulty chiller 2023-03-11 2023-03-21    11       0.512      True
+        PO-012 after-hours lighting left on 2023-07-24 2023-08-04    12       0.286      True
+        PO-012               faulty chiller 2024-06-02 2024-06-10     9       0.542      True
